@@ -55,7 +55,7 @@
             font-weight: lighter;
             font-size: 22px;
         }
-     </style>
+    </style>
 </head>
 
 <body>
@@ -81,6 +81,37 @@
             </ul>
         </nav>
     </header>
+    <section>
+        <div>
+            <h3>Get Started Today</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+            <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" />
+                <label for="email">Enter email address:</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" />
+                <label for="phone">Enter a telephone number:</label>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                <p>
+                    Have you worked out with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</label>
+                </p>
+                <p>
+                    <label for="checkbox" >
+                        I acknowledge that I am at least 18 years of age.
+                      </label>
+                      <input type="checkbox" name="age-confirm" id="checkbox" />
+                    </p>
+                    <button type="submit">
+                      Get running!
+                    </button>      
+                </p>
+            </form>
+        </div>
+    </section>
 
     <!-- hero/jumbotron -->
     <section>
@@ -111,24 +142,27 @@
 <footer>
     <style>
         footer {
-  background: #fce138;
-  width: 100%;
-  padding: 40px 35px;
-}
-footer h2 {
-  display: inline;
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
-}
-footer div {
-  float: right;
-  line-height: 1.5;
-  text-align: right;
-}
-footer a {
-  color: #024e76;
-}
+            background: #fce138;
+            width: 100%;
+            padding: 40px 35px;
+        }
+
+        footer h2 {
+            display: inline;
+            color: #024e76;
+            font-size: 30px;
+            margin: 0;
+        }
+
+        footer div {
+            float: right;
+            line-height: 1.5;
+            text-align: right;
+        }
+
+        footer a {
+            color: #024e76;
+        }
     </style>
     <h2>❤️Made with love by Run Buddy.</h2>
     <div>
@@ -136,4 +170,5 @@ footer a {
         &copy; 2019 Run Buddy, Inc.
     </div>
 </footer>
+
 </html>
