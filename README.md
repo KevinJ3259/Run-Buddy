@@ -1,4 +1,6 @@
 # Run-Buddy
+Kevin J
+
 
 ## Purpose
 A website that offers fitness training services.
